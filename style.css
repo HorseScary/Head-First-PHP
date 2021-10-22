@@ -10,6 +10,10 @@ body {
     background-size: cover;
 }
 
+a {
+    color: lightseagreen;
+}
+
 .grid-container {
     display: grid;
     grid-template-areas: 

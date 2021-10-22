@@ -1,0 +1,54 @@
+body {
+    margin: 40px;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    background-color: rgb(54, 57, 64);
+}
+
+a{
+    color: lightseagreen;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'tit'
+    'bod'
+    'back';
+
+    gap: 20px 40px;
+}
+
+.tit {
+    grid-area: tit;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.bod {
+    grid-area: bod;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.back {
+    grid-area: back;
+    text-align: center;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background-color: white;
+}
+
+.back:hover a{
+    color:rgb(128, 139, 167);
+}
