@@ -4,7 +4,7 @@ body {
     border: 1px solid white;
     border-radius: 5px;
 
-    background-color: rgb(54, 57, 64);
+    background-color: #808ba7;
 }
 
 a{
@@ -50,5 +50,5 @@ a{
 }
 
 .back:hover a{
-    color:rgb(128, 139, 167);
+    color:#808ba7;
 }
