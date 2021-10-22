@@ -1,0 +1,45 @@
+body {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 40px;
+
+    background-image: url(https://i.imgur.com/MY29IAg.jpg);
+    background-color: rgb(54, 57, 64);
+    background-position: top;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'tit'
+    'bod';
+    grid-gap: 40px;
+}
+
+.item1 {
+    grid-area: tit;
+
+    text-align: center;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #ffffff40;
+
+
+    color: white;
+
+}
+
+.item2 {
+    grid-area: bod;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #ffffff40;
+
+    color: white;
+    padding: 10px;
+
+}
