@@ -4,13 +4,12 @@ body {
     border: 1px solid white;
     border-radius: 5px;
 
-    background-color: #808ba7;
+    background-color: #363940;
 }
 
 a{
     color: lightseagreen;
 }
-
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -50,5 +49,5 @@ a{
 }
 
 .back:hover a{
-    color:#808ba7;
+    color:#363940;
 }
